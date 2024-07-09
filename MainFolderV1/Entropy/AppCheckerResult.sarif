@@ -14,6 +14,1056 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 14,
+                  "snippet": {
+                    "text": ".ScreeenNammee"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ScreeenNammee"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.CustomProperty1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.CustomProperty1",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomProperty1",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.ScreeenNammee"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.ScreeenNammee",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "ScreeenNammee",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LibraryScreen.MenuHamburguer_2.CustomProperty1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LibraryScreen.MenuHamburguer_2.CustomProperty1",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomProperty1",
+                "module": "LibraryScreen",
+                "type": "LibraryScreen.MenuHamburguer_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "LibraryScreen.MenuHamburguer_2.ScreeenNammee"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "LibraryScreen.MenuHamburguer_2.ScreeenNammee",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "ScreeenNammee",
+                "module": "LibraryScreen",
+                "type": "LibraryScreen.MenuHamburguer_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WelcomeScreen.MenuHamburguer_1.CustomProperty1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "WelcomeScreen.MenuHamburguer_1.CustomProperty1",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomProperty1",
+                "module": "WelcomeScreen",
+                "type": "WelcomeScreen.MenuHamburguer_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WelcomeScreen.MenuHamburguer_1.ScreeenNammee"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "WelcomeScreen.MenuHamburguer_1.ScreeenNammee",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "ScreeenNammee",
+                "module": "WelcomeScreen",
+                "type": "WelcomeScreen.MenuHamburguer_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 40,
+                  "snippet": {
+                    "text": ".ScreeenNammee"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ScreeenNammee"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 4,
+                  "charOffset": 109,
+                  "snippet": {
+                    "text": "This"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "This"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 107,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 165,
+                  "snippet": {
+                    "text": "Last(FirstN(Gallery1.AllItems,3))"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 23,
+                  "charOffset": 250,
+                  "snippet": {
+                    "text": "Last(Gallery1.AllItems)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 23,
+                  "snippet": {
+                    "text": "\"\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 55,
+                  "snippet": {
+                    "text": "\"Home\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 140,
+                  "snippet": {
+                    "text": "\"Details\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 224,
+                  "snippet": {
+                    "text": "\"Settings\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 300,
+                  "snippet": {
+                    "text": "\"Library\""
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Switch"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Switch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.galleryTemplate1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 33,
+                  "charOffset": 350,
+                  "snippet": {
+                    "text": "Last(FirstN(Gallery1.AllItems,2))"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.galleryTemplate1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailsScreen.MenuHamburguer_3.CustomProperty1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailsScreen.MenuHamburguer_3.CustomProperty1",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomProperty1",
+                "module": "DetailsScreen",
+                "type": "DetailsScreen.MenuHamburguer_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DetailsScreen.MenuHamburguer_3.ScreeenNammee"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DetailsScreen.MenuHamburguer_3.ScreeenNammee",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "ScreeenNammee",
+                "module": "DetailsScreen",
+                "type": "DetailsScreen.MenuHamburguer_3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.Rectangle3.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MenuHamburguer.Gallery1.Rectangle3.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "MenuHamburguer",
+                "type": "MenuHamburguer.Gallery1.Rectangle3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SettingsScreen.MenuHamburguer_4.ScreeenNammee"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "SettingsScreen.MenuHamburguer_4.ScreeenNammee",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "ScreeenNammee",
+                "module": "SettingsScreen",
+                "type": "SettingsScreen.MenuHamburguer_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SettingsScreen.MenuHamburguer_4.CustomProperty1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "SettingsScreen.MenuHamburguer_4.CustomProperty1",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomProperty1",
+                "module": "SettingsScreen",
+                "type": "SettingsScreen.MenuHamburguer_4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DebugScreen.MenuHamburguer_5.CustomProperty1"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DebugScreen.MenuHamburguer_5.CustomProperty1",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "CustomProperty1",
+                "module": "DebugScreen",
+                "type": "DebugScreen.MenuHamburguer_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DebugScreen.MenuHamburguer_5.ScreeenNammee"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "DebugScreen.MenuHamburguer_5.ScreeenNammee",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 92,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(!IsBlank(theDefault), {name: \"Home\", logo:Icon.Home, screen: \"WelcomeScreen\"},theDefault)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "ScreeenNammee",
+                "module": "DebugScreen",
+                "type": "DebugScreen.MenuHamburguer_5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Void"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "MenuHamburguer.Icon1.TabIndex"
                 }
               ],
@@ -37,7 +1087,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 0
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -67,7 +1117,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -97,7 +1147,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -127,7 +1177,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -157,7 +1207,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 0
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -187,7 +1237,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 7
         }
       ],
       "tool": {
@@ -195,6 +1245,103 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleRulePropTypes-PropKind-RuleKind",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected {0} value."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Change the rule to produce a {0} value."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleCtxtVariableTypes",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible type. We can't evaluate your formula because the context variable types are incompatible with the types of values in other places in your app."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Look at places where you use a context variable and make sure that the type (e.g., text, number, date, record, table) is compatible."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType-ExpectedType-ProvidedType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type ({1}). Expecting a {0} value instead."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {

@@ -389,7 +389,7 @@
               },
               {
                 "Category": "Behavior",
-                "InvariantScript": "Switch(theDefault.name,\"Home\",Set(theDefault,First(Gallery1.AllItems));Navigate(WelcomeScreen),\"Details\",Set(theDefault,Last(FirstN(Gallery1.AllItems,3)));Navigate(DetailsScreen),\"Settings\",Set(theDefault,Last(Gallery1.AllItems));Navigate(SettingsScreen),\"Library\",Navigate(LibraryScreen));Set(theDefault,Last(FirstN(Gallery1.AllItems,2)));",
+                "InvariantScript": "Switch(theDefault.name,\"\",MenuHamburguer.ScreeenNammee,\"Home\",Set(theDefault,Filter(Gallery1.AllItems,name = This));Navigate(WelcomeScreen),\"Details\",Set(theDefault,Last(FirstN(Gallery1.AllItems,3)));Navigate(DetailsScreen),\"Settings\",Set(theDefault,Last(Gallery1.AllItems));Navigate(SettingsScreen),\"Library\",Navigate(LibraryScreen));Set(theDefault,Last(FirstN(Gallery1.AllItems,2)));",
                 "Property": "OnSelect",
                 "RuleProviderType": "User"
               }
@@ -759,7 +759,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "ThisItem.IsSelected And theDefault.name=ThisItem.name",
+                "InvariantScript": "theDefault.name=ThisItem.name",
                 "Property": "Visible",
                 "RuleProviderType": "User"
               }
@@ -1374,7 +1374,7 @@
         "NameMapSourceSchema": "?"
       }
     ],
-    "LastModifiedTimestamp": "638561635428197798",
+    "LastModifiedTimestamp": "638561639300982208",
     "Name": "MenuHamburguer",
     "Rules": [
       {
@@ -1588,7 +1588,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638561635428197798",
+  "LastModifiedTimestamp": "638561639300982208",
   "Name": "751b67915fa4452fa167d0e16489828a",
   "OverridableProperties": {},
   "Version": "1.0"

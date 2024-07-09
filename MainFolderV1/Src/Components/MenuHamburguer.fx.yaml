@@ -52,7 +52,7 @@ MenuHamburguer As CanvasComponent:
             =[{name: "Home", logo:Icon.Home, screen: "WelcomeScreen"},{name: "Library", logo:Icon.LevelsLayersItems, screen: "LibraryScreens" },{name: "Details", logo:Icon.ListScrollWatchlist, screen: "DetailsScreen"},{name: "Settings", logo:Icon.Settings, screen: "SettingsScreen"}]
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Switch(theDefault.name,"Home",Set(theDefault,First(Gallery1.AllItems));Navigate(WelcomeScreen),"Details",Set(theDefault,Last(FirstN(Gallery1.AllItems,3)));Navigate(DetailsScreen),"Settings",Set(theDefault,Last(Gallery1.AllItems));Navigate(SettingsScreen),"Library",Navigate(LibraryScreen));Set(theDefault,Last(FirstN(Gallery1.AllItems,2)));
+        OnSelect: =Switch(theDefault.name,"",MenuHamburguer.ScreeenNammee,"Home",Set(theDefault,Filter(Gallery1.AllItems,name = This));Navigate(WelcomeScreen),"Details",Set(theDefault,Last(FirstN(Gallery1.AllItems,3)));Navigate(DetailsScreen),"Settings",Set(theDefault,Last(Gallery1.AllItems));Navigate(SettingsScreen),"Library",Navigate(LibraryScreen));Set(theDefault,Last(FirstN(Gallery1.AllItems,2)));
         TemplatePadding: =0
         TemplateSize: =104
         Width: =Parent.Width-Parent.Width/11
@@ -84,7 +84,7 @@ MenuHamburguer As CanvasComponent:
             ZIndex: =3
 
         Rectangle3 As rectangle:
-            Visible: =ThisItem.IsSelected And theDefault.name=ThisItem.name
+            Visible: =theDefault.name=ThisItem.name
             Width: =17
             X: =40
             Y: =4
