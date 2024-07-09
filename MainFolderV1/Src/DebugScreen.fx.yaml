@@ -1,2 +1,21 @@
 DebugScreen As screen:
 
+    MenuHamburguer_5 As MenuHamburguer:
+        CustomProperty1: |-
+            =If(!IsBlank(theDefault), {name: "Home", logo:Icon.Home, screen: "WelcomeScreen"},theDefault)
+        Height: |-
+            =//If(expandedBoolean, MenuHamburguer.HeightInput+ MenuHamburguer.HeightVar,  MenuHamburguer.HeightVar)
+            MenuHamburguer_5.HeightVar
+        NavigateToScreen: =
+        SelectedScreenName: =
+        Width: =If(expandedBoolean, MenuHamburguer_5.WidthInput + MenuHamburguer_5.WidthVar,  MenuHamburguer_5.WidthVar)
+
+    TextCanvas2_5 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =30
+        Text: =Parent.Name
+        Width: =178
+        X: =655
+        Y: =30
+        ZIndex: =2
+

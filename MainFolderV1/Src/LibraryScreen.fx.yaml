@@ -1,2 +1,21 @@
 LibraryScreen As screen:
 
+    MenuHamburguer_2 As MenuHamburguer:
+        CustomProperty1: |-
+            =If(!IsBlank(theDefault), {name: "Home", logo:Icon.Home, screen: "WelcomeScreen"},theDefault)
+        Height: |-
+            =//If(expandedBoolean, MenuHamburguer.HeightInput+ MenuHamburguer.HeightVar,  MenuHamburguer.HeightVar)
+            MenuHamburguer_2.HeightVar
+        NavigateToScreen: =
+        SelectedScreenName: =
+        Width: =If(expandedBoolean, MenuHamburguer_2.WidthInput + MenuHamburguer_2.WidthVar,  MenuHamburguer_2.WidthVar)
+
+    TextCanvas2_2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =30
+        Text: =Parent.Name
+        Width: =178
+        X: =655
+        Y: =30
+        ZIndex: =2
+

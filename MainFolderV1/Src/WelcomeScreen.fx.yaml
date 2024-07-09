@@ -1,19 +1,31 @@
 WelcomeScreen As screen:
 
-    TextCanvas1 As Text:
+    MenuHamburguer_1 As MenuHamburguer:
+        CustomProperty1: |-
+            =If(!IsBlank(theDefault), {name: "Home", logo:Icon.Home, screen: "WelcomeScreen"},theDefault)
+        Height: |-
+            =//If(expandedBoolean, MenuHamburguer.HeightInput+ MenuHamburguer.HeightVar,  MenuHamburguer.HeightVar)
+            MenuHamburguer_1.HeightVar
+        NavigateToScreen: =
+        SelectedScreenName: =
+        Width: =If(expandedBoolean, MenuHamburguer_1.WidthInput + MenuHamburguer_1.WidthVar,  MenuHamburguer_1.WidthVar)
+        ZIndex: =2
+
+    ButtonCanvas3 As Button:
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        Text: ="Tsaveapp"
+        OnSelect: =MenuHamburguer_1.NavigateToScreen("hello")
         Width: =96
-        X: =40
-        Y: =40
-        ZIndex: =1
+        X: =310
+        Y: =60
+        ZIndex: =3
 
-    Component1_1 As Component1:
-        HeightChanges: =If(expandedBoolean, App.Height/2.1, Component1_1.HeightChangesVar)
-        HeightChangesVar: =App.Height/3
-        WidthChanges: =If(expandedBoolean, App.Width/2.1, Component1_1.WithChangesVar)
-        X: =380
-        Y: =130
-        ZIndex: =2
+    TextCanvas2_1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =30
+        Text: =Parent.Name
+        Width: =178
+        X: =655
+        Y: =30
+        ZIndex: =4
 

@@ -1,0 +1,92 @@
+MenuHamburguer As CanvasComponent:
+    CustomProperty1():
+        ThisProperty:
+            Default: |-
+                =If(!IsBlank(theDefault), {name: "Home", logo:Icon.Home, screen: "WelcomeScreen"},theDefault)
+    NavigateToScreen(ScreenName As String):
+        ScreenName:
+            Default: ="Text"
+        ThisProperty:
+            Default: =
+    SelectedScreenName():
+        ThisProperty:
+            Default: =
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: |-
+        =//If(expandedBoolean, MenuHamburguer.HeightInput+ MenuHamburguer.HeightVar,  MenuHamburguer.HeightVar)
+        MenuHamburguer.HeightVar
+    HeightInput: =100
+    HeightVar: =App.Height
+    ScreeenNammee: |-
+        =If(!IsBlank(theDefault), {name: "Home", logo:Icon.Home, screen: "WelcomeScreen"},theDefault)
+    Width: =If(expandedBoolean, MenuHamburguer.WidthInput + MenuHamburguer.WidthVar,  MenuHamburguer.WidthVar)
+    WidthInput: =100
+    WidthVar: =100
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    ButtonCanvas1 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =Parent.Height
+        OnSelect: =If(IsBlank(nameSelectedScreen), "Home",Set(nameSelectedScreen,Gallery1.Selected.name))
+        Text: =
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =1
+
+    Icon1 As icon.Hamburger:
+        Icon: =Icon.Hamburger
+        OnSelect: =Set(expandedBoolean, !expandedBoolean);
+        X: =20
+        Y: =20
+        ZIndex: =2
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        BorderStyle: =BorderStyle.None
+        Default: =MenuHamburguer.ScreeenNammee
+        DelayItemLoading: =true
+        Height: =App.Height-100
+        Items: |-
+            =[{name: "Home", logo:Icon.Home, screen: "WelcomeScreen"},{name: "Library", logo:Icon.LevelsLayersItems, screen: "LibraryScreens" },{name: "Details", logo:Icon.ListScrollWatchlist, screen: "DetailsScreen"},{name: "Settings", logo:Icon.Settings, screen: "SettingsScreen"}]
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Switch(theDefault.name,"Home",Set(theDefault,First(Gallery1.AllItems));Navigate(WelcomeScreen),"Details",Set(theDefault,Last(FirstN(Gallery1.AllItems,3)));Navigate(DetailsScreen),"Settings",Set(theDefault,Last(Gallery1.AllItems));Navigate(SettingsScreen),"Library",Navigate(LibraryScreen));Set(theDefault,Last(FirstN(Gallery1.AllItems,2)));
+        TemplatePadding: =0
+        TemplateSize: =104
+        Width: =Parent.Width-Parent.Width/11
+        X: =10
+        Y: =100
+        ZIndex: =3
+
+        Separator1 As rectangle:
+            Height: =2
+            OnSelect: =Select(Parent)
+            Width: =If(expandedBoolean, MenuHamburguer.WidthInput + MenuHamburguer.WidthVar,  MenuHamburguer.WidthVar)
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =1
+
+        TextCanvas3 As Text:
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Text: =ThisItem.name
+            Width: =96
+            X: =17
+            Y: =67
+            ZIndex: =2
+
+        "Icon2 As icon.'3DPrinting'":
+            Icon: =ThisItem.logo
+            OnSelect: =Select(Parent)
+            X: =4
+            Y: =3
+            ZIndex: =3
+
+        Rectangle3 As rectangle:
+            Visible: =ThisItem.IsSelected And theDefault.name=ThisItem.name
+            Width: =17
+            X: =40
+            Y: =4
+            ZIndex: =4
+

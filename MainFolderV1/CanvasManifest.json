@@ -136,9 +136,9 @@
   },
   "ScreenOrder": [
     "WelcomeScreen",
-    "DetailsScreen",
     "LibraryScreen",
-    "SettingScreen",
+    "DetailsScreen",
+    "SettingsScreen",
     "DebugScreen"
   ]
 }

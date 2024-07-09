@@ -1,0 +1,32 @@
+SettingsScreen As screen:
+    OnVisible: =
+
+    TextCanvas2_4 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =30
+        Text: =Parent.Name
+        Width: =178
+        X: =655
+        Y: =30
+        ZIndex: =2
+
+    TextCanvas5 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: =
+        Width: =96
+        X: =235
+        Y: =80
+        ZIndex: =3
+
+    MenuHamburguer_4 As MenuHamburguer:
+        CustomProperty1: |-
+            =If(!IsBlank(theDefault), {name: "Home", logo:Icon.Home, screen: "WelcomeScreen"},theDefault)
+        Height: |-
+            =//If(expandedBoolean, MenuHamburguer.HeightInput+ MenuHamburguer.HeightVar,  MenuHamburguer.HeightVar)
+            MenuHamburguer_4.HeightVar
+        NavigateToScreen: =
+        SelectedScreenName: =
+        Width: =If(expandedBoolean, MenuHamburguer_4.WidthInput + MenuHamburguer_4.WidthVar,  MenuHamburguer_4.WidthVar)
+        ZIndex: =4
+
