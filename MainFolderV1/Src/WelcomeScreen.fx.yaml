@@ -9,3 +9,11 @@ WelcomeScreen As screen:
         Y: =40
         ZIndex: =1
 
+    Component1_1 As Component1:
+        HeightChanges: =If(expandedBoolean, App.Height/2.1, Component1_1.HeightChangesVar)
+        HeightChangesVar: =App.Height/3
+        WidthChanges: =If(expandedBoolean, App.Width/2.1, Component1_1.WithChangesVar)
+        X: =380
+        Y: =130
+        ZIndex: =2
+
